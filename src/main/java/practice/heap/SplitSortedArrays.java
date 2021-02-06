@@ -1,8 +1,8 @@
 package practice.heap;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
-import java.util.LinkedList;
 import java.util.List;
 
 public class SplitSortedArrays {
@@ -32,6 +32,6 @@ public class SplitSortedArrays {
   }
 
   public static void main(String[] args) {
-
+    System.out.println(split(Arrays.asList(1, 2, 10, 11, 8, 3, 4, 5)));
   }
 }
