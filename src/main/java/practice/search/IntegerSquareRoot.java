@@ -15,4 +15,8 @@ public class IntegerSquareRoot {
     }
     return left - 1;
   }
+
+  public static void main(String[] args) {
+    System.out.println(sqrt(9));
+  }
 }
